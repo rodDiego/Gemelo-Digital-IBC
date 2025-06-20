@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23884713c19c11f4e8f055db2f7b0c85, type: 3}
+  m_Name: Default Navigation Config
+  m_EditorClassIdentifier: 
+  useLineRenderer: 1
+  useParticleTrail: 1
+  showBothEffects: 0
+  pathMaterial: {fileID: 0}
+  pathWidth: 0.3
+  pathColor: {r: 0.102, g: 0.137, b: 0.494, a: 1}
+  lineHeight: 0.3
+  particleCount: 20
+  particleSpeed: 2
+  particleSize: 0.12
+  particleColor: {r: 0.102, g: 0.137, b: 0.494, a: 1}
+  particleHeight: 0.5
+  particleSpacing: 1
+  particleDelay: 0.1
+  useGlow: 1
+  glowIntensity: 2.5
+  useTrail: 0
+  trailDuration: 0.5
+  fadeOutTime: 1
+  navigationKey: 110
+  cancelNavigationKey: 120
+  blockNavigationDuringActive: 1
+  primaryButtonColor: {r: 0.31, g: 0.76, b: 0.97, a: 1}
+  hoverButtonColor: {r: 0.16, g: 0.71, b: 0.96, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  arrivalThreshold: 2
+  autoRecalculatePath: 1
+  maxDeviationDistance: 5
+  playNavigationStartSound: 1
+  playArrivalSound: 1
+  navigationStartClip: {fileID: 0}
+  arrivalClip: {fileID: 0}
+  soundVolume: 0.5
+  pathUpdateInterval: 0
+  maxParticlesForPerformance: 50
+  useParticleLOD: 1
+  particleLODDistance: 25
+  enableDebugLogging: 1
+  showWaypointGizmos: 1
+  showPathInfo: 0
+  waypointGizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  aulaColor: {r: 0.2, g: 1, b: 0.2, a: 1}
+  laboratorioColor: {r: 1, g: 0.8, b: 0.2, a: 1}
+  oficinaColor: {r: 0.8, g: 0.8, b: 1, a: 1}
+  salaReunionesColor: {r: 1, g: 0.6, b: 1, a: 1}
+  bibliotecaColor: {r: 0.6, g: 0.8, b: 1, a: 1}
+  auditorioColor: {r: 1, g: 0.4, b: 0.4, a: 1}
+  ceeColor: {r: 0.8, g: 0.8, b: 1, a: 1}
+  aulaIcon: "A\u2022"
+  laboratorioIcon: "L\u2022"
+  oficinaIcon: "O\u2022"
+  salaReunionesIcon: "R\u2022"
+  bibliotecaIcon: "B\u2022"
+  auditorioIcon: "T\u2022"
+  ceeIcon: "CEE\u2022"
+  otroIcon: "?\u2022"
+  panelAnimationDuration: 0.3
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panelStartScale: 0.8
+  showConfirmationMessages: 1
+  messageDuration: 3
+  startNavigationMessage: "\U0001F9ED Navegando hacia {destination}..."
+  arrivalMessage: "\U0001F3AF \xA1Has llegado a {destination}!"
+  cancelNavigationMessage: "\u274C Navegaci\xF3n cancelada"
+  cancelInstructionMessage: "\U0001F4A1 Presiona '{cancelKey}' para cancelar el recorrido
+    actual"
+  navigationBlockedMessage: "\U0001F512 Navegaci\xF3n en curso. Presiona '{cancelKey}'
+    para cancelar primero."
+  useAdvancedParticlePhysics: 0
+  particleGravity: 0
+  useParticleCollisions: 0
+  useReactiveParticles: 0
+  playerInfluenceRadius: 3
+  useUnity6Compatibility: 1
+  optimizeForMobile: 0
+  useUnity6Features: 1
